@@ -9,7 +9,7 @@ body {
   }  
 
   h1 {
-    font-size: clamp(3 rem, 1 rem + 10vw, 7rem); /*change Hi, Im Ariana here*/ 
+    font-size: clamp(3 rem, 1 rem + 10vw, 7rem); 
     font-weight: bold;
     margin-bottom:2em;
     margin-top: 2em;
@@ -17,8 +17,12 @@ body {
   }
 
   .big {
-    font-size: clamp(3.5rem, 1rem + 10vw, 4rem);
+    font-size: clamp(1rem, 10vw, 2rem); /*this is where size of Hi, I'm Ariana changes*/
     margin-bottom: 0.5em;
+  }
+
+  .medium {
+    font-size: 1.5em;
   }
 
   .content a {
@@ -26,7 +30,7 @@ body {
   }
   p {
     text-align: left; /*Welcome to...change size here*/
-    font-size: 1.5em;
+    font-size: 1em;
   }
   
   img {
