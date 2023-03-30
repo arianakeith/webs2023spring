@@ -67,6 +67,11 @@ padding: 4em 0 0;
     text-decoration:none;
   }
 
+  .menu img {
+    justify-content: left;    /* Why wont this rule make my logo align left????*/
+    margin-top: 0;
+  }
+
   .page-container {
     padding: 0 1em;
     max-width: 60rem;
