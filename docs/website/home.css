@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;500&display=swap');
 body {
     background-color: #8e9b97;    /* navy */
     color: #2c4A52;    /* text color White */
     box-sizing: border-box;
     margin: 0;
     padding: 0 0 4em;
+    font-family: 'Montserrat Alternates', sans-serif;
   }  
 
   h1 {
-    font-size: clamp(3 rem, 1 rem + 10vw, 7rem); /*change Hi, Im Ariana here*/
-    font-weight: normal;   
+    font-size: clamp(3 rem, 1 rem + 10vw, 7rem); /*change Hi, Im Ariana here*/ 
+    font-weight: bold;
     margin-bottom:2em;
     margin-top: 2em;
+    font-family: 'Montserrat Alternates', sans-serif;
   }
 
   .big {
@@ -38,7 +41,7 @@ display: flex;
 justify-content: space-between;
 align-items: flex-end;
 font-size: 1.2em;
-padding: 4em 0 0;
+padding: 2em 0 0;
 /* these rules effect social media icons  nav */
 
 }
@@ -68,7 +71,7 @@ padding: 4em 0 0;
   }
 
   .menu img {
-    justify-content: left;    /* Why wont this rule make my logo align left????*/
+    justify-self: flex-start;    
     margin-top: 0;
   }
 
