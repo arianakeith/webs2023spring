@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;500&display=swap');
 body {
-    background-color: #8e9b97;    /* navy */
-    color: #2c4A52;    /* text color White */
+    background-color: #8e9b97;    
+    color: #2c4A52;    
     box-sizing: border-box;
     margin: 0;
     padding: 0 0 4em;
@@ -132,7 +132,7 @@ padding: 2em 0 0;
   }
 
 
-/* contact page css below  */
+/* the following code based with gratitude on work by W3 schools at https://www.w3schools.com/howto/howto_css_contact_section.asp */
 
 
 * {
@@ -191,6 +191,9 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+/* end of code based with gratitude on work by W3 schools at https://www.w3schools.com/howto/howto_css_contact_section.asp */
+
 
 /* Ben notes: To prevent font-awesome icons from turning blue when they're links, override the default style for 'a' within the context where font-awesome appears... */
 .section a {
