@@ -1,4 +1,3 @@
-To access my wesbite files go to docs, website, index.html
 
 
 
